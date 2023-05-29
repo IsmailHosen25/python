@@ -41,6 +41,17 @@
 # print(str.rsplit(" ", 2))
 
 
+# #this is strip function , rstrip, lstrip
+
+# h="      hahhaha"
+# print(h)
+# print(h.strip())
+
+# h="      hahhaha"
+# d="Nanananana"
+# print(h)
+# print(d.strip("Nanana"))
+
 #this is end function it just used in print function
 
 # h='this is hasan'
@@ -63,3 +74,23 @@
 # month=4
 # year=2023
 # print(date,month,year,sep='-')
+
+#this is replace function, it is used in a string to change a word or somthing
+
+# a="hasan is a bad student"
+# new=a.replace("bad","good")
+# second_new=a.replace("student", "boy")
+# print(second_new)
+
+
+
+#this join function use for on array to convort a string
+
+# h=["hello","hasan","!!!","Howe","are", "you","?"]
+# str='###'.join(h)
+# str='&'.join(h)
+# str=' '.join(h)
+# sp=str.split()
+# new_str=", ".join(sp)
+# print(new_str)
+
