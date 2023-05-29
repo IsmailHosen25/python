@@ -26,3 +26,40 @@
 # print(a.find("hasan"))               ###those number are index of index number
 # print(a.find("you"))
 # print(a.find("hasan", 15,40))
+
+
+
+#this all are use for string
+# str='hello this is hasan'
+# print(str.split(" "))
+
+
+# str='hello this is hasan'
+# print(str.split(" ", 2))
+
+# str='hello this is hasan'
+# print(str.rsplit(" ", 2))
+
+
+#this is end function it just used in print function
+
+# h='this is hasan'
+# p='hasan is good student'
+# d="but he did not study many time"
+# print(h,end=", ")  #end="\n" defult value
+# print(p.capitalize(),end=', ')
+# print(d.capitalize())
+
+
+
+#this is sep function it just used in print function,sep use for diffrences value print in a print function
+
+# h='this is hasan'
+# p='hasan is good student'
+# d="but he did not study many time"
+# print(h.capitalize(),p.capitalize(),d.capitalize(),sep=", ")
+
+# date=19
+# month=4
+# year=2023
+# print(date,month,year,sep='-')
